@@ -2,7 +2,7 @@ package com.AutoShop;
 
 public class Ford extends Car {
 	
-	int year;//Initializing Variable for Manufacturing Year
+	public int year;//Initializing Variable for Manufacturing Year
 	int manufacturerdiscount;//Initializing Variable for Manufacturing Discount
 
 	public Ford(int speed, double regularPrice, String color,int year,	int manufacturerdiscount){

@@ -6,7 +6,7 @@ public class Car {
 // Initializing Attributes for A vehicle
 	int speed;
 	double regularPrice;
-	String color;
+	public String color;
 
     public Car(int speed,double regularPrice, String color) {
     	super();
